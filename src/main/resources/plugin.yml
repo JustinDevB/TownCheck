@@ -1,0 +1,10 @@
+name: ${project.artifactId}
+main: ${mainClass}
+version: ${project.version}
+author: ${author}
+api-version: 1.15
+depend: [Towny, TownyNameUpdater]
+commands:
+  towncheck:
+      description: Check for inactive towns.
+      aliases: [tc]

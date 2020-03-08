@@ -1,0 +1,10 @@
+name: TownCheck
+main: JustinDevB.TownCheck.Core
+version: 1.0
+author: Justin
+api-version: 1.15
+depend: [Towny, TownyNameUpdater]
+commands:
+  towncheck:
+      description: Check for inactive towns.
+      aliases: [tc]
